@@ -1,24 +1,3 @@
-# git_demo
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1-新建项目 此时只有 master 分支
+执行 git push -u origin main 把本地分支关联远程仓库 此时 本地 master 分支变成 main 分支
+此时可以 git status 看下文件状态 如果还有未提交的文件 执行提交即可
