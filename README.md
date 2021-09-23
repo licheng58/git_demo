@@ -5,3 +5,6 @@
 2-本地新建分支 切换主分支 合并需要合并的分支 然后 git add git commit git push ---本地合并分支 推送远程服务器 main
 
 3-本地新建分支 git add git commit git push origin （分支名称） ---效果是远程服务器 新增一个分支
+
+4- 如果需要合并 远程的 main 和 dev 分支  
+ 1.本地合并 git merge dev 2.如果 dev 的文件都有 commit 过 那么直接就 git push main 远程分支 3.查看服务器是否有新的文件产生 4.删除远程分支 git push origin --delete XXX
