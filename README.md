@@ -13,4 +13,4 @@
 
 6-git reset --hard HEAD^ 回到上一个版本
 
-7-git push --set-upstream origin dev //dev 为创建分支的名字
+7-git push --set-upstream origin dev //dev 为创建分支的名字 1
