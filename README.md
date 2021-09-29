@@ -12,3 +12,5 @@
 5-git push origin --delete XXX 删除远程分支
 
 6-git reset --hard HEAD^ 回到上一个版本
+
+7-git push --set-upstream origin dev //dev 为创建分支的名字
