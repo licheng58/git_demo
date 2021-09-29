@@ -10,3 +10,5 @@
  1.本地合并 git merge dev 2.如果 dev 的文件都有 commit 过 那么直接就 git push main 远程分支 3.查看服务器是否有新的文件产生 4.删除远程分支 git push origin --delete XXX
 
 5-git push origin --delete XXX 删除远程分支
+
+6-git reset --hard HEAD^ 回到上一个版本
